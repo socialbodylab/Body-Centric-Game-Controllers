@@ -17,6 +17,7 @@
 #include <Keyboard.h>
 
 int threshold = 0;
+int analogPotPin = A0;
 
 // the setup routine runs once when you press reset:
 void setup() {
