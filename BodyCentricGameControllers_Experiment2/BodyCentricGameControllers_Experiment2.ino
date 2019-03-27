@@ -38,29 +38,33 @@ void loop() {
 
   if (sensorValue > threshold)
   {
-    Keyboard.write(216);
+    Keyboard.press(216);
     Serial.print("Left");
     delay(100);
   }
 
   else if (sensorValue2 > threshold)
   {
-    Keyboard.write(215);
+    Keyboard.press(215);
     Serial.print("Right");
     delay(100);
   }
   else if (sensorValue3 > threshold)
   {
-    Keyboard.write(218);
+    Keyboard.press(218);
     Serial.print("Up");
     delay(100);
   }
   else if (sensorValue4 > threshold)
   {
-    Keyboard.write(217);
+    Keyboard.press(217);
     Serial.print("Down");
     delay(100);
   }
+  else{
+    Keyboard.releaseAll();
+  }
+  
   // print out the value you read:
   //  Serial.print("sensorValue = ");
   //  Serial.print(sensorValue);
