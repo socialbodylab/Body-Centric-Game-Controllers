@@ -1,6 +1,6 @@
 # Body-Centric Game Controllers
 
-Wednesday, March 27, 2019<, 6:30pm - 9:30pm<br>
+Wednesday, March 27, 2019, 6:30pm - 9:30pm<br>
 Workshop with Social Body Lab and Dames Making Games at the Toronto Media Arts Centre<br>
 https://dmg.to/events/body-centric-game-controllers
 
